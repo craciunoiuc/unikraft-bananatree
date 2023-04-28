@@ -1,7 +1,5 @@
 # https://help.github.com/articles/about-codeowners/
 
-/Makefile.uk @mschlumpp
-
 # These owners are the default owners for all Unikraft core files.
 *			@unikraft/maintainers-core
 
@@ -101,3 +99,7 @@
 # These owners oversee testing within Unikraft.
 /lib/uktest		@unikraft/maintainers-test
 tests/test_*		@unikraft/maintainers-test
+
+/Makefile.uk @mschlumpp
+
+
